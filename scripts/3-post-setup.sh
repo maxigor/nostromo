@@ -76,37 +76,36 @@ echo -ne "
                         Symlink directory
 -------------------------------------------------------------------------
 "
-ln -s $HOME/nostromo/configs/.config/alacritty $HOME/.config/alacritty
-ln -s $HOME/nostromo/configs/.config/bspwm $HOME/.config/bspwm
-ln -s $HOME/nostromo/configs/.config/dunst $HOME/.config/dunst
-ln -s $HOME/nostromo/configs/.config/hexchat $HOME/.config/hexchat
-ln -s $HOME/nostromo/configs/.config/jgmenu $HOME/.config/jgmenu 
-ln -s $HOME/nostromo/configs/.config/neofetch $HOME/.config/neofetch
-ln -s $HOME/nostromo/configs/.config/nvim $HOME/.config/nvim
-ln -s $HOME/nostromo/configs/.config/polybar $HOME/.config/polybar
-ln -s $HOME/nostromo/configs/.config/qBittorrent $HOME/.config/qBittorrent
-ln -s $HOME/nostromo/configs/.config/rofi $HOME/.config/rofi
-ln -s $HOME/nostromo/configs/.config/sxhkd $HOME/.config/sxhkd
-ln -s $HOME/nostromo/configs/.config/wallpaper $HOME/.config/wallpaper
-ln -s $HOME/nostromo/configs/.config/.fehbg $HOME/.config/.fehbg
-ln -s $HOME/nostromo/configs/.config/pavucontrol.ini $HOME/.config/pavucontrol.ini
-ln -s $HOME/nostromo/configs/.config/picom.conf $HOME/.config/picom.conf
-ln -s $HOME/nostromo/configs/.config/.starship.toml $HOME/.config/.starship.toml
+ln -s /home/$USERNAME/nostromo/configs/.config/alacritty /home/$USERNAME/.config/alacritty
+ln -s /home/$USERNAME/nostromo/configs/.config/bspwm /home/$USERNAME/.config/bspwm
+ln -s /home/$USERNAME/nostromo/configs/.config/dunst /home/$USERNAME/.config/dunst
+ln -s /home/$USERNAME/nostromo/configs/.config/hexchat /home/$USERNAME/.config/hexchat
+ln -s /home/$USERNAME/nostromo/configs/.config/jgmenu /home/$USERNAME/.config/jgmenu 
+ln -s /home/$USERNAME/nostromo/configs/.config/neofetch /home/$USERNAME/.config/neofetch
+ln -s /home/$USERNAME/nostromo/configs/.config/nvim /home/$USERNAME/.config/nvim
+ln -s /home/$USERNAME/nostromo/configs/.config/polybar /home/$USERNAME/.config/polybar
+ln -s /home/$USERNAME/nostromo/configs/.config/qBittorrent /home/$USERNAME/.config/qBittorrent
+ln -s /home/$USERNAME/nostromo/configs/.config/rofi /home/$USERNAME/.config/rofi
+ln -s /home/$USERNAME/nostromo/configs/.config/sxhkd /home/$USERNAME/.config/sxhkd
+ln -s /home/$USERNAME/nostromo/configs/.config/wallpaper /home/$USERNAME/.config/wallpaper
+ln -s /home/$USERNAME/nostromo/configs/.config/.fehbg /home/$USERNAME/.config/.fehbg
+ln -s /home/$USERNAME/nostromo/configs/.config/pavucontrol.ini /home/$USERNAME/.config/pavucontrol.ini
+ln -s /home/$USERNAME/nostromo/configs/.config/picom.conf /home/$USERNAME/.config/picom.conf
+ln -s /home/$USERNAME/nostromo/configs/.config/.starship.toml /home/$USERNAME/.config/.starship.toml
+ln -s /home/$USERNAME/nostromo/configs/.zshrc /home/$USERNAME/.zshrc
 
-ln -s $HOME/nostromo/configs/.zshrc $HOME/.zshrc
 echo -ne "
 -------------------------------------------------------------------------
                         Installing XQP
 -------------------------------------------------------------------------
 "
 
-cd ~/Downloads
 git clone https://github.com/baskerville/xqp.git
 cd xqp
 make
 sudo make install
 
-rm -rf ~/Downloads/xqp
+rm -rf xqp
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -119,7 +118,7 @@ systemctl enable NetworkManager.service
 
 echo "Enabling Ly Display Manager..."
 sudo systemctl enable ly.service
-sudo cp ~/nostromo/configs/config.ini /etc/ly/
+sudo cp $HOME/nostromo/configs/config.ini /etc/ly/
 
 echo "Enabling and Starting NordVPN..."
 groupadd -r nordvpn
