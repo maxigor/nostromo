@@ -26,6 +26,5 @@ timeshift
 tor-browser
 ttf-ms-fonts
 upscayl-bin       
-whatsapp-for-linux
 xdf-user-dirs
 --END OF MINIMAL INSTALL--
