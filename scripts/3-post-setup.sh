@@ -76,23 +76,23 @@ echo -ne "
                         Symlink directory
 -------------------------------------------------------------------------
 "
-ln -s /home/$USERNAME/nostromo/configs/.config/alacritty /home/$USERNAME/.config/alacritty
-ln -s /home/$USERNAME/nostromo/configs/.config/bspwm /home/$USERNAME/.config/bspwm
-ln -s /home/$USERNAME/nostromo/configs/.config/dunst /home/$USERNAME/.config/dunst
-ln -s /home/$USERNAME/nostromo/configs/.config/hexchat /home/$USERNAME/.config/hexchat
-ln -s /home/$USERNAME/nostromo/configs/.config/jgmenu /home/$USERNAME/.config/jgmenu 
-ln -s /home/$USERNAME/nostromo/configs/.config/neofetch /home/$USERNAME/.config/neofetch
-ln -s /home/$USERNAME/nostromo/configs/.config/nvim /home/$USERNAME/.config/nvim
-ln -s /home/$USERNAME/nostromo/configs/.config/polybar /home/$USERNAME/.config/polybar
-ln -s /home/$USERNAME/nostromo/configs/.config/qBittorrent /home/$USERNAME/.config/qBittorrent
-ln -s /home/$USERNAME/nostromo/configs/.config/rofi /home/$USERNAME/.config/rofi
-ln -s /home/$USERNAME/nostromo/configs/.config/sxhkd /home/$USERNAME/.config/sxhkd
-ln -s /home/$USERNAME/nostromo/configs/.config/wallpaper /home/$USERNAME/.config/wallpaper
-ln -s /home/$USERNAME/nostromo/configs/.config/.fehbg /home/$USERNAME/.config/.fehbg
-ln -s /home/$USERNAME/nostromo/configs/.config/pavucontrol.ini /home/$USERNAME/.config/pavucontrol.ini
-ln -s /home/$USERNAME/nostromo/configs/.config/picom.conf /home/$USERNAME/.config/picom.conf
-ln -s /home/$USERNAME/nostromo/configs/.config/.starship.toml /home/$USERNAME/.config/.starship.toml
-ln -s /home/$USERNAME/nostromo/configs/.zshrc /home/$USERNAME/.zshrc
+ln -s /home/$USERNAME/nostromo/configs/.config/alacritty /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/bspwm /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/dunst /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/hexchat /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/jgmenu /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/neofetch /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/nvim /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/polybar /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/qBittorrent /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/rofi /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/sxhkd /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/wallpaper /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/.fehbg /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/pavucontrol.ini /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/picom.conf /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.config/starship.toml /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nostromo/configs/.zshrc /home/$USERNAME/
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -118,7 +118,7 @@ systemctl enable NetworkManager.service
 
 echo "Enabling Ly Display Manager..."
 sudo systemctl enable ly.service
-sudo cp $HOME/nostromo/configs/config.ini /etc/ly/
+sudo cp /home/$USERNAME/nostromo/configs/config.ini /etc/ly/
 
 echo "Enabling and Starting NordVPN..."
 groupadd -r nordvpn

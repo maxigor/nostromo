@@ -55,10 +55,10 @@ fi
 export PATH=$PATH:~/.local/bin
 
 mkdir ~/.config
-cp -r ~/nostromo/configs/.config ~/
+#cp -r ~/nostromo/configs/.config ~/
 cp ~/nostromo/configs/.Xresources ~/
 cp ~/nostromo/configs/.xinitrc ~/
-cp ~/nostromo/configs/.zshrc ~/
+#cp ~/nostromo/configs/.zshrc ~/
 mkdir ~/Downloads
 
 echo -ne "
