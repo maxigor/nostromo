@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor LVDS1 -d I II III IV 
+bspc monitor LVDS1 -d I II III IV V 
 
 bspc config border_radius		    3
 bspc config border_width         	    3
