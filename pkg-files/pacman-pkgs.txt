@@ -96,6 +96,7 @@ rsync
 samba
 simplescreenrecorder  
 smbclient
+sof-firmware
 speedtest-cli         
 spotify-launcher
 starship              
