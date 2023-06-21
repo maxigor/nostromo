@@ -25,8 +25,9 @@ bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
 bspc rule -a Nemo state=floating
 bspc rule -a qbittorrent desktop="^2"
-bspc rule -a hexchat desktop="^2"
-bspc rule -a 'VirtualBox Manager' desktop="^3" follow=on state=floating
+bspc rule -a hexchat desktop="^5"
+bspc rule -a notion-app desktop="^3"
+bspc rule -a 'VirtualBox Manager' desktop="^5" follow=on state=floating
 
 ${HOME}/.config/.fehbg
 xrandr --output eDP1 
