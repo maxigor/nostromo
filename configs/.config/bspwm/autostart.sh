@@ -2,6 +2,7 @@
 
 polybar &
 cbatticon &
-thunderbird &
 alacritty &
+thunderbird &
+notion-app &
 xbacklight -set 20 &
