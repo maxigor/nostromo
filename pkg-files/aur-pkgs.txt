@@ -23,6 +23,7 @@ python-xdg
 rtl88xxau-aircrack-dkms-git
 shell-color-scripts
 timeshift          
+tlpui
 tor-browser
 ttf-ms-fonts
 upscayl-bin       
