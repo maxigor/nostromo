@@ -13,6 +13,7 @@ ly
 moreutils
 nerd-fonts-complete
 nordvpn-bin
+notion-app
 obinskit
 octopi
 picom-pijulius-git    
