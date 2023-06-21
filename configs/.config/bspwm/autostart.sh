@@ -1,4 +1,7 @@
 #!/bin/bash
 
+polybar &
+cbatticon &
+thunderbird &
 alacritty &
-xbacklight -set 40 &
+xbacklight -set 20 &

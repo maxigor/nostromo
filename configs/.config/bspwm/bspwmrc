@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor LVDS1 -d I II III IV V 
+bspc monitor eDP1 -d I II III IV V 
 
 bspc config border_radius		    3
 bspc config border_width         	    3
@@ -29,7 +29,7 @@ bspc rule -a hexchat desktop="^2"
 bspc rule -a 'VirtualBox Manager' desktop="^3" follow=on state=floating
 
 ${HOME}/.config/.fehbg
-xrandr --output LVDS1 
+xrandr --output eDP1 
 xrdb ${HOME}/.Xresources
 $HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/autostart.sh
