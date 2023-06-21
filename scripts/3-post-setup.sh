@@ -135,6 +135,10 @@ echo "enabling and starting Samba serivce"
 sudo systemctl enable smb.service
 sudo systemctl start smb.service
 
+echo "enabling and starting TLP service"
+sudo systemctl enable tlp.service
+sudo systemctl start tlp.service
+
 echo -ne "
 -------------------------------------------------------------------------
                         Setting up Git Account
