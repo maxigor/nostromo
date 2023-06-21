@@ -1,8 +1,9 @@
 #!/bin/bash
 
+xbacklight -set 20 &
 polybar &
 cbatticon &
-alacritty &
-thunderbird &
 notion-app &
-xbacklight -set 20 &
+thunderbird &
+firefox &
+alacritty &
