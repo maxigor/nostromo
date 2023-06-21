@@ -19,19 +19,18 @@ bspc config urgent_border_color       '#dd2727'
 bspc rule -a Alacritty desktop='^1' follow=on focus=on
 bspc rule -a firefox desktop='^4' follow=on focus=on
 bspc rule -a discord desktop='^3' follow=on
-bspc rule -a spotify desktop='^3' follow=on
+bspc rule -a spotify desktop='^3' 
 bspc rule -a thunderbird desktop='^2'
 bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
 bspc rule -a Nemo state=floating
 bspc rule -a qbittorrent desktop="^2"
 bspc rule -a hexchat desktop="^5"
-bspc rule -a notion-app desktop="^3"
+bspc rule -a notion-app desktop="^3" follow=false
 bspc rule -a 'VirtualBox Manager' desktop="^5" follow=on state=floating
 
 ${HOME}/.config/.fehbg
 xrandr --output eDP1 
 xrdb ${HOME}/.Xresources
-$HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/autostart.sh
 picom # --experimental-backends
