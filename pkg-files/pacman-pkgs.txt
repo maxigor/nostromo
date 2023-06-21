@@ -86,6 +86,7 @@ pngcrush
 polybar               
 postfix             
 pulseaudio
+pulseaudio-bluetooth
 python                
 python-pip
 qbittorrent           
