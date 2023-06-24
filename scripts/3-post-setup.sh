@@ -93,6 +93,8 @@ ln -s /home/$USERNAME/nostromo/configs/.config/pavucontrol.ini /home/$USERNAME/.
 ln -s /home/$USERNAME/nostromo/configs/.config/picom.conf /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nostromo/configs/.config/starship.toml /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nostromo/configs/.zshrc /home/$USERNAME/
+ln -s /home/$USERNAME/nostromo/configs/.config/eww /home/$USERNAME/.config
+
 
 echo -ne "
 -------------------------------------------------------------------------
