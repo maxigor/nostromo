@@ -7,7 +7,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-
+alias eww="./eww/target/release/eww"
 alias speedtest="speedtest-cli"
 alias g="git"
 alias h="history"
