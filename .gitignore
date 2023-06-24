@@ -3,3 +3,5 @@
 2-user.log
 3-post-setup.log
 startup.log
+configs/.config/hexchat/scrollback/
+configs/.config/hexchat/logs/*
