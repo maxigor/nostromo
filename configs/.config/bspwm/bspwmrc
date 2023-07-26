@@ -19,7 +19,7 @@ bspc config urgent_border_color       '#dd2727'
 bspc rule -a Alacritty desktop='^1' follow=on focus=on
 bspc rule -a firefox desktop='^3' follow=on focus=on
 bspc rule -a discord desktop='^5' follow=on
-bspc rule -a spotify desktop='^6' 
+bspc rule -a Spotify desktop='^6' follow=false 
 bspc rule -a thunderbird desktop='^2'
 bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
