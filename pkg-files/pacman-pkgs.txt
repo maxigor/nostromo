@@ -107,6 +107,7 @@ terminus-font
 terraform
 thunderbird
 tldr
+tlpui
 ttf-font-awesome
 ttf-roboto
 ttf-roboto-mono
