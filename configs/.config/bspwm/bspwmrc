@@ -30,7 +30,7 @@ bspc rule -a notion-app desktop="^4" follow=false
 bspc rule -a 'VirtualBox Manager' desktop="^5" follow=on state=floating
 
 ${HOME}/.config/.fehbg
-xrandr --output eDP1 
+xrandr --output eDP1 --primary --rotate normal --mode 1920x1080 
 xrdb ${HOME}/.Xresources
 $HOME/.config/bspwm/autostart.sh
 picom # --experimental-backends
