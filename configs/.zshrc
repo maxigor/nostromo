@@ -16,7 +16,7 @@ alias dl="cd /mnt/Strike\ Eureka/Downloads"
 alias Code="cd code"
 alias code="cd code"
 alias battery="cbatticon -d"
-
+alias batterystats="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias find="fd"
 alias cat="bat"
 
