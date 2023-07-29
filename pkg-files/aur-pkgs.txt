@@ -17,7 +17,7 @@ nordvpn-bin
 notion-app
 obinskit
 octopi
-picom-pijulius-git    
+picom-git
 plank
 plymouth                 
 pulseaudio-control 
