@@ -60,6 +60,14 @@ echo -e "All set!"
 
 
 
+echo -ne "
+-------------------------------------------------------------------------
+                        Installing Auto-CPUFREQ
+-------------------------------------------------------------------------
+"
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+auto-cpufreq --install
 
 echo -ne "
 -------------------------------------------------------------------------

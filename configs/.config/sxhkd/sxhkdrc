@@ -17,6 +17,21 @@ super + Escape
 #
 # bspwm hotkeys
 #
+
+F1
+    amixer -q sset Master toggle
+{F2,F3}
+    amixer set Master 10{-,+} unmute
+{F5,F6}
+    xbacklight -{dec,inc} 5  
+F7
+	bspc {node,desktop} -f last
+F9
+    sudo /home/max/nostromo/fk/suspend.sh
+F10
+    sudo /home/max/nostromo/fk/enable_wifi.sh
+F11
+    sudo /home/max/nostromo/fk/disable_wifi.sh
 super + p
     flameshot gui
 
