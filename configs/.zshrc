@@ -12,15 +12,19 @@ alias speedtest="speedtest-cli"
 alias g="git"
 alias h="history"
 alias top="bpytop"
-alias dl="cd /mnt/Strike\ Eureka/Downloads"
-alias Code="cd code"
-alias code="cd code"
+alias dl="cd /home/max/Downloads"
+alias C="cd code"
+alias c="cd code"
 alias battery="cbatticon -d"
 alias batterystats="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias find="fd"
 alias cat="bat"
-
+alias myip="curl ifconfig.me"
+alias kb="setxkbmap -model abnt2 -layout us -variant intl &"
+alias logoff="bspc quit"
+alias monitoroff="xset dpms force suspend"
 alias ww="xprop | grep WM_CLASS"
+
 # Disk Space Report
 alias diskspace="ncdu"
 
