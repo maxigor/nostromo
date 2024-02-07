@@ -1,3 +1,5 @@
+adobe-source-han-sans-cn-fonts 
+adobe-source-han-serif-cn-fonts 
 alsa-utils 
 ansible-core
 apache                
@@ -21,6 +23,9 @@ electron
 elinks                
 exa
 exfat-utils           
+fcitx5-chinese-addons 
+fcitx5-configtool
+fcitx5-im 
 fd
 feh
 file-roller           
@@ -68,6 +73,7 @@ neovim
 net-tools
 nodejs                
 nomacs                
+noto-fonts-cjk 
 npm                   
 ntfs-3g               
 ntp                   
@@ -108,6 +114,8 @@ terraform
 thunderbird
 tldr
 tlpui
+ttf-arphic-ukai 
+ttf-arphic-uming
 ttf-font-awesome
 ttf-roboto
 ttf-roboto-mono
@@ -120,6 +128,10 @@ veracrypt
 vim                   
 vlc                   
 wget                  
+wqy-bitmapfont 
+wqy-microhei 
+wqy-microhei-lite 
+wqy-zenhei 
 xautolock
 xcb-util-image
 xcb-util-renderutil
