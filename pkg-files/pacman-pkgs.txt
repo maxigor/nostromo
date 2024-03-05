@@ -114,6 +114,7 @@ terraform
 thunderbird
 tldr
 tlpui
+tree
 ttf-arphic-ukai 
 ttf-arphic-uming
 ttf-font-awesome
