@@ -48,10 +48,10 @@ alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 
 # Changing "ls" to "exa"
-alias ll='exa -al --color=always --group-directories-first' # my preferred listing
+alias ll='exa -al --color=always --icons --group-directories-first' # my preferred listing
 alias la='exa -a --color=always --group-directories-first'  # all files and dirs
 alias lsd='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias llt='exa -aT --icons --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
 # Colorize grep output (good for log files)
